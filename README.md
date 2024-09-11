@@ -1,4 +1,4 @@
-# Formula-1-Data-Engineering-Project-Using-Azure-Databricks
+# Formula 1 Data Engineering Project Using Azure Databricks, ADF, and ADLS
 
 ## Project Overview
 This project focuses on building an ETL pipeline to analyze Formula 1 racing data using Azure Databricks. Data is sourced from the Ergast API and stored in Azure Data Lake Storage Gen2 (ADLS). We perform transformations in Azure Databricks, and the process is orchestrated with Azure Data Factory (ADF). The final output can be used for reporting and analysis of race results, driver standings, and constructor standings.
