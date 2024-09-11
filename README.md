@@ -12,7 +12,7 @@ Formula 1 is the highest class of international auto racing. The F1 season consi
 ## ER Diagram
 ![687474703a2f2f6572676173742e636f6d2f696d616765732f6572676173745f64622e706e67](https://github.com/user-attachments/assets/b882dd48-36be-495e-adac-a7310bf5ee44)
 
-## How It Works:
+## How It Works
 ### Data Ingestion:
 - Data is pulled from the Ergast API (CSV/JSON format) and stored in the Azure Data Lake (Bronze zone).
 - Files ingested include circuits, races, constructors, drivers, results, pit stops, lap times, and qualifying rounds.
@@ -61,9 +61,9 @@ Pipelines are triggered every Sunday at 10 PM, skipping weeks with no races. ADF
 - Power BI
 
 ## Folder Structure
-**set_up/:** Contains notebooks for configuring and accessing Azure resources like Data Lake and Key Vault.
-**includes/:** Helper functions and common configurations used throughout the project.
-**raw-files-external-tables/:** Processes raw data from the Ergast API into raw tables.
-**transformations/:** Performs data cleaning, joins, and prepares data for final analysis.
-**analysis/:** Conducts final analysis of data, including driver and constructor standings.
-**utils/:** Reusable utility functions for data transformation and ingestion.
+- **set_up/:** Contains notebooks for configuring and accessing Azure resources like Data Lake and Key Vault.
+- **includes/:** Helper functions and common configurations used throughout the project.
+- **raw-files-external-tables/:** Processes raw data from the Ergast API into raw tables.
+- **transformations/:** Performs data cleaning, joins, and prepares data for final analysis.
+- **analysis/:** Conducts final analysis of data, including driver and constructor standings.
+- **utils/:** Reusable utility functions for data transformation and ingestion.
